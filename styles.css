@@ -59,6 +59,7 @@ span {
 .bottom-container {
   background-color: #CD113B;
   margin-top: 50px;
+  margin-bottom: 0;
 }
 
 .bottom-cloud {
@@ -102,12 +103,16 @@ span {
 }
 
 .btn {
-  background: #CE1F6A;
+  background: #FF7396;
+  background-image: -webkit-linear-gradient(top, #FF7396, #C67ACE);
+  background-image: -moz-linear-gradient(top, #FF7396, #C67ACE);
+  background-image: -ms-linear-gradient(top, #FF7396, #C67ACE);
+  background-image: -o-linear-gradient(top, #FF7396, #C67ACE);
   background-image: linear-gradient(to bottom, #FF7396, #C67ACE);
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
-  font-family: 'Hind Siliguri', sans-serif;
+  font-family: Arial;
   color: #ffffff;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
@@ -115,10 +120,14 @@ span {
 }
 
 .btn:hover {
-  background: #F9D923;
-  color: black;
+  background: #FFBCBC;
+  background-image: -webkit-linear-gradient(top, #FFBCBC, #E4BAD4);
+  background-image: -moz-linear-gradient(top, #FFBCBC, #E4BAD4);
+  background-image: -ms-linear-gradient(top, #FFBCBC, #E4BAD4);
+  background-image: -o-linear-gradient(top, #FFBCBC, #E4BAD4);
   background-image: linear-gradient(to bottom, #FFBCBC, #E4BAD4);
   text-decoration: none;
+  color: black;
 }
 
 .contact-me {
@@ -129,4 +138,12 @@ span {
   padding-bottom: 50px;
   width: 30%;
   margin: auto;
+}
+
+.hello {
+  padding: 30px 10px 70px 10px;
+}
+
+.skill {
+  padding-top: 30px;
 }
